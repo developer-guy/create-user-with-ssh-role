@@ -1,0 +1,6 @@
+---
+- name: Deploy SSH key for user {{ username }}
+  authorized_key:
+    user: "{{ username }}"
+    key: "{{ lookup('file', pub_key_file_path) }}"
+    state: present

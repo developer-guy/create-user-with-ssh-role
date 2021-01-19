@@ -1,0 +1,5 @@
+---
+# defaults file for create-user-with-ssh-role
+username: ""
+password: ""
+pub_key_file_path: ""

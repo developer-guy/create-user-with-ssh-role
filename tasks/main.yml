@@ -1,0 +1,6 @@
+---
+- include_tasks: add-new-user.yml 
+- include_tasks: add-new-user-to-sudoers.yml
+- include_tasks: deploy-ssh-key.yml
+- include_tasks: disable-password-auth.yml
+- include_tasks: disable-root-login.yml
